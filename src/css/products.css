@@ -1,0 +1,218 @@
+
+.addProduct{
+    /* margin: -257px 0 0 0; */
+    /* background: url('../photos/intro-bg.jpg') no-repeat center center fixed; */
+    /* -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    min-height: 860px;  */
+    background-color: #fff;
+    direction: rtl;
+  
+}
+
+.addProduct  form{
+    padding: 150px 0 0 0;
+}
+.addProduct  .form-control{
+    width: 25%;
+    color: aliceblue;
+    margin: 0 auto;
+    background: transparent !important;
+    padding: 30px 15px;
+    font-weight: bold;
+    
+}
+.btn{
+    margin-bottom: 8px;
+}
+.addProduct  .btn{
+    margin: 45px auto;
+    /* width: 100px; */
+    color: #fff;
+    /* background: transparent; */
+    padding: 7px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 5px 2px #35dcbd;
+    background-color: #35dcbd;
+    border: solid 0px #35dcbd;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+ 
+.addProduct  .btn .edit{
+    text-decoration: none;
+    color: #fff;
+}
+
+.addProduct  .header{
+    text-align: center;
+    position: relative;
+    top: 85px;    
+    /* color: #fff; */
+    font-size: 5em;
+    /* box-shadow: 1px 1px 5px 2px #c1bcbe94 */
+}
+.addProduct  .header span:last-child{
+    color: #3ccabc;
+    font-weight: 800;
+    /* box-shadow: */
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif
+}
+.addProduct  .btn {
+    color: #fff;
+    font-weight: 700;
+    /* font-size: 20px; */
+}
+.filter{
+    text-align: center;
+}
+.searchAddProduct{
+    padding: 10px;
+    width: 50%;
+    font-size: 25px;
+    background: transparent;
+    /* color: #fff; */
+    -webkit-box-shadow: 2px 1px 6px 2px #ddd;;
+    -moz-box-shadow: 2px 1px 6px 2px #ddd;
+    -o-box-shadow: 2px 1px 6px 2px #ddd;
+    box-shadow: 2px 1px 6px 2px #ddd;
+    border: none ;
+    border-radius: 10px;
+    /* color: #fff; */
+    margin: -22px 0 0 0;
+}
+.searchAddProduct  .list option{
+    background: #000;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+
+
+
+ .allProducts{
+    color: rgba(119, 119, 119, 0.78);
+    font-size: 2em;
+    padding: 20px;
+    font-weight: 600;
+    direction: rtl;
+
+}
+
+.allProducts h1{
+    color: #dc3545;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+
+
+.allProducts .store{
+    /* border: 1px solid #dc3545; */
+    padding: 10px 0;
+    margin: 20px auto;
+    border-radius: 5%;
+    -webkit-box-shadow: 3px 3px 5px 4px #ddd;
+    -moz-box-shadow: 3px 3px 5px 4px #ddd;
+    -o-box-shadow: 3px 3px 5px 4px #ddd;
+    box-shadow: 3px 3px 5px 4px #ddd;
+    -webkit-transition: 0.2s all ease-in-out;
+    -moz-transition: 0.2s all ease-in-out;
+    -o-transition: 0.2s all ease-in-out;
+    transition: 0.2s all ease-in-out;
+    direction: rtl
+}
+.allProducts .store ul li{
+    font-size: 18px;
+    text-align: right;
+    /* padding: 10px 20px; */
+}
+.allProducts .store ul li span{
+    font-size: 18px;
+    /* text-align: right; */
+    float: left;
+  margin-left: 20px;
+}
+.allProducts .store .lead{
+    color: #DC3545;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  /* box-shadow: 1px 1px 1px 1px #ddd;  */
+  /* min-width: 50%; */
+  /* padding: 10px */
+}
+.allProducts .store .btn{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: sans-serif
+}
+.store .delete{
+    float: right;
+    margin: -9px 0 0 0;
+  position: relative;
+  right: 10px;
+    cursor: pointer;
+    -webkit-transition: 0.1s ease-in-out;
+    -moz-transition: 0.1s ease-in-out;
+    -o-transition: 0.1s ease-in-out;
+    transition: 0.1s ease-in-out;
+}
+.store .delete:hover{
+    color: #dc3545;
+}
+
+/* 
+----------------------------------------------------------
+                    Media Query
+----------------------------------------------------------
+*/
+@media(max-width:768px)
+{
+    .allProducts .store{
+        max-width: 75%;
+        margin: 20px auto;
+    }
+    .searchAddProduct{
+        font-size: 19px;
+        font-weight: bold;
+    }
+    .addProduct .btn{
+        font-size: 15px;
+    }
+}
+@media(max-width:991px)
+{
+    .allProducts .store{
+        max-width: 65%;
+        margin: 20px auto;
+    }
+}
+
+@media(min-width:992px)and (max-width:1199px)
+{
+  .allProducts .store{
+        max-width: 65%;
+        margin: 20px auto;
+    }
+}
+
+
+@media(max-width:1200px)
+{
+.allProducts .store{
+        max-width: 65%;
+        margin: 20px auto;
+    }
+}

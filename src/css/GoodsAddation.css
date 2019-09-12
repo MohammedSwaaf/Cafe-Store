@@ -1,0 +1,73 @@
+.form-group {
+    margin-bottom: -20px;
+}
+.addProducts .items .titleOfHead{
+    
+    
+    margin: 60px 0 0 0 ;
+}
+.addProducts .items .form-group .goods{
+    width: 30%;
+}
+.addProducts .items .titleOfHead .head span{
+    color: #dc3545 ;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif
+}
+.add>input{
+    max-width: 15%;
+    margin: 20px 0px 0 35px;
+    padding: 7px 7px;
+    font-size: 20px;
+    border: 1px solid #ddd;
+}
+.table thead tr th{
+    min-width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: 23px;
+}
+.table tbody tr td{
+    padding: 20px;
+    font-size: 19px;
+    color:#31708f;
+    font-weight: bold;
+}
+.table tbody tr .names{
+    color: #dc3545;
+    font-size: 20px;
+}
+/* 
+----------------------------------------------------------
+                    Media Query
+----------------------------------------------------------
+*/
+@media(max-width:768px)
+{
+.num{
+    width: 6%;
+    margin: 20px 0px 0 35px;
+    padding: 7px 7px;
+    font-size: 20px;
+    border: 1px solid #ddd;
+}
+}
+@media(max-width:991px)
+{
+    .table{
+        overflow-x: scroll;
+        width: 100%
+    };
+    
+}
+
+@media(min-width:992px)and (max-width:1199px)
+{
+  
+}
+
+
+@media(max-width:1200px)
+{
+
+}

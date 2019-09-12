@@ -1,0 +1,142 @@
+
+
+.addProducts{
+    /* margin: -257px 0 0 0; */
+    /* background: url('../photos/intro-bg.jpg') no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    min-height: 860px;  */
+    direction: rtl;
+    text-align: center;
+    min-width: 100%;
+}
+.addProducts .sending  {
+    max-width: 30%;
+    /* border: 1px solid #ddd;   */
+    margin-top: 150px;
+    -webkit-box-shadow: 3px 3px 5px 4px #ddd;
+    -moz-box-shadow: 3px 3px 5px 4px #ddd;
+    -o-box-shadow: 3px 3px 5px 4px #ddd;
+    box-shadow: 3px 3px 5px 4px #ddd;
+    -webkit-border-radius: 2%;
+    -moz-border-radius:2%;
+    -o-border-radius:2%;
+    border-radius: 2%;
+} 
+.addProducts .sending .lead{
+    margin: 43px 40px 0px 0;
+    font-size: 25px;
+    color: #dc3545;
+    font-weight: bold;
+}
+.addProducts  form{
+    padding: 32px 0;
+    
+}
+.addProducts  .form-control{
+    width: 55%;
+    color: #31708f;
+    font-size: 18px;
+    margin: 40px auto;
+    background: transparent !important;
+    padding: 19px 10px;
+    font-weight: bold; 
+}
+.addProducts .custom-select{
+    width: 45%;
+    padding: 10px 10px ;
+    color: #31708f;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.addProducts .form-control ::placeholder{
+    color: #dc3545;
+}
+.addProducts  .dataOfUsers {
+    width: 100px;
+    color: #fff;
+    background: #dc3545;
+    padding: 5px;
+    font-weight: bold;
+    border: solid 1px #dc3545;
+    -webkit-transition: 0.2s all ease-in-out;
+    -moz-transition: 0.2s all ease-in-out;
+    -o-transition: 0.2s all ease-in-out;
+    transition: 0.2s all ease-in-out;
+    font-size: 20px;
+    margin-bottom: -38px;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -o-border-radius: 10%;
+    border-radius: 5%;
+}
+
+.addProducts  .dataOfUsers:hover{
+    background: #fff;
+    color: #dc3545;
+}
+.addProducts  .header{
+    /* text-align: center; */
+    /* position: relative;
+    top: 300px;     */
+    color: #fff;
+    font-size: 4em;
+}
+.addProducts  .header span{
+    color: #dc3545;
+    font-weight: 800;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.addProducts  .btn a{
+    color: #fff;
+    
+}
+.filter{
+    text-align: center;
+}
+.search{
+    padding: 10px;
+    width: 50%;
+}
+.sending .lable{
+    color: #31708f;
+    margin: 10px 0 0 0 ;
+}
+/* 
+----------------------------------------------------------
+                    Media Query
+----------------------------------------------------------
+*/
+@media(max-width:768px)
+{
+    .addProducts .sending  {
+    max-width: 75%;
+    
+} 
+}
+@media(max-width:991px)
+{
+    .addProducts .sending  {
+    max-width: 75%;
+    
+} 
+}
+
+@media(min-width:992px)and (max-width:1199px)
+{
+  .addProducts .sending  {
+    max-width: 75%;
+    
+} 
+}
+
+
+@media(max-width:1200px)
+{
+
+}

@@ -1,0 +1,114 @@
+.editProducts{
+    margin: 100px auto;
+    
+}
+.editProducts .sending{
+    padding: 40px;
+    /* max-width: 50%; */
+    -webkit-box-shadow: 3px 3px 5px 4px #ddd;
+    -moz-box-shadow: 3px 3px 5px 4px #ddd;
+    -o-box-shadow: 3px 3px 5px 4px #ddd;
+    box-shadow: 3px 3px 5px 4px #ddd;
+    -webkit-border-radius: 2%;
+    -moz-border-radius:2%;
+    -o-border-radius:2%;
+    border-radius: 2%;
+    
+}
+.editProducts .contain{
+    text-align: left
+    /* position: relative; */
+    /* right:50px; */
+
+}
+.editProducts .headPage{
+    margin: 50px 0;
+    color: #dc3545;
+    font-weight: 800;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif
+}
+.editProducts .form-group .form-control{
+    width: 75%;
+    font-weight: 700;
+    direction: rtl;
+    margin: 20px auto;
+    padding: 20px 5px;
+    font-size: 17px;
+    color: #31708f
+
+}
+
+.editProducts .sending .header{
+    margin: 36px 0;
+    color: #dc3545;
+    font-size: 25px;
+    font-weight: 600;
+}
+.editProducts .btn{
+    width: 15%;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    background: #dc3545;
+}
+
+/* media ََQuiry */
+
+@media(max-width:768px)
+{
+ .editProducts .contain{
+    text-align: center;
+    padding: 45px 0 0 0;
+    /* position: relative; */
+    /* right:50px; */
+
+}
+.editProducts .btn{
+    width: 25%;
+    font-weight: 700;
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+    background: #dc3545;
+} 
+.editProducts .sending .header {
+    position: relative;
+    top: -120px;
+}
+}
+@media(max-width:991px)
+{
+  .editProducts .contain{
+    text-align: center;
+    padding: 45px 0 0 0;
+    /* position: relative; */
+    /* right:50px; */
+  }
+.editProducts .sending .header {
+    position: relative;
+    top: -120px;
+}
+
+
+  
+}
+
+@media(min-width:992px)and (max-width:1199px)
+{
+  
+/* Edit Product Page */
+  .editProducts .sending .header{
+    /* margin: 26px 0; */
+    /* color: #dc3545; */
+    font-size: 25px;
+    font-weight: 600;
+}
+}
+
+
+@media(max-width:1200px)
+{
+
+}

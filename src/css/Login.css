@@ -1,0 +1,72 @@
+
+.banner{
+    /* margin: -257px 0 0 0; */
+    /* background: url('../photos/intro-bg.jpg') no-repeat center center fixed; */
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    min-height: 860px; 
+    direction: rtl;
+  
+}
+.banner .shadow{
+    /* background-color:rgba(2,2,2,0.6); */
+    
+    min-height: 100%;   
+}
+.banner .shadow form{
+        padding: 300px 0;
+    
+}
+.banner .shadow .form-control{
+    width: 30%;
+    color: rgb(14, 30, 44);
+    margin: 40px auto;
+    background: transparent !important;
+    padding: 30px 15px;
+    font-weight: bold;
+    
+}
+.banner .shadow .btn{
+    text-align: center;
+    margin: 0 47%;
+    width: 100px;
+    color: #999;
+    background: transparent;
+    padding: 15px;
+    font-weight: bold;
+    border: solid 1px #dc3545;
+    -webkit-transition: 0.2s all ease-in-out;
+    -o-transition: 0.2s all ease-in-out;
+    transition: 0.2s all ease-in-out;
+}
+.banner .shadow .btn:hover{
+    color: #dc3545;
+    border: solid 1px #dc3545;
+}
+.banner .shadow .header{
+    text-align: center;
+    position: relative;
+    top: 300px;    
+    color: #fff;
+    font-size: 5em;
+}
+.banner .shadow .header span:first-child{
+    color: rgb(2, 1, 1);
+    font-weight: 800;
+}
+.banner .shadow .header span:last-child{
+    color: #dc3545;
+    font-weight: 800;
+}
+.banner .shadow .btn a{
+    color: #dc3545;
+}
+.filter{
+    text-align: center;
+}
+.search{
+    padding: 10px;
+    width: 50%;
+}

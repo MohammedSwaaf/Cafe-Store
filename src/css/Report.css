@@ -1,0 +1,46 @@
+
+.form-group .report input{
+    padding: 7px 5px ;
+    font-size: 17px;
+    color: #41708F;
+    font-weight: bold;
+    border: 0;
+    -webkit-box-shadow: 2px 2px 2px 3px #ddd;
+    -moz--webkit-box-shadow: 2px 2px 2px 3px #ddd;
+    -o--webkit-box-shadow: 2px 2px 2px 3px #ddd;
+    box-shadow: 2px 2px 2px 3px #ddd;
+}
+.add .dataOfUsers{
+    margin: 50px 0 0 0;
+}
+.addProducts .items .takrer{
+    margin: -50px 0 0 0;
+}
+/* 
+----------------------------------------------------------
+                    Media Query
+----------------------------------------------------------
+*/
+@media(max-width:768px)
+{
+.addProducts .scrolling {
+    width: 100%;
+    overflow-x: scroll;
+}
+}
+@media(max-width:991px)
+{
+   
+    
+}
+
+@media(min-width:992px)and (max-width:1199px)
+{
+  
+}
+
+
+@media(max-width:1200px)
+{
+
+}
