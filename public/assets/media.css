@@ -1,0 +1,28 @@
+/* media ََQuiry */
+
+@media(max-width:768px)
+{
+  /* Edit Product Page */
+  .editProducts .sending .header{
+    /* margin: 26px 0; */
+    /* color: #dc3545; */
+    font-size: 25px;
+    font-weight: 600;
+}
+}
+@media(max-width:991px)
+{
+  
+}
+
+@media(min-width:992px)and (max-width:1199px)
+{
+  
+
+}
+
+
+@media(max-width:1200px)
+{
+
+}
